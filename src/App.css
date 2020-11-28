@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+}
+
+body {
+  background-color: #f5f6fa;
+}
+.app_header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: #cb0000;
+}
+
+.app_dropdown {
+  background-color: white;
+}
+.app_stats {
+  align-self: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.app-left {
+  flex: 70%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.app-right {
+  display: flex;
+  flex-direction: column;
+}
+.app_graph {
+  flex-grow: 1;
+}
+
+@media (max-width: 990px) {
+  .app {
+    flex-direction: column;
+  }
+}
+
+.chartjs-render-monitor {
+  height: 300px;
+  max-width: 430px;
+  margin-right: 20px;
+  margin-left: 0em;
+}
